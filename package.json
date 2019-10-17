@@ -1,0 +1,32 @@
+{
+  "version": "0.0.1",
+  "name": "twug-fiddle",
+  "description": "Twug fiddle - A demo of Twug - Twig built for JavaScript with Uniter",
+  "license": "MIT",
+  "dependencies": {
+    "codemirror": "^5.49.0",
+    "react": "^16.10.2",
+    "react-codemirror2": "^6.0.0",
+    "react-dom": "^16.10.2",
+    "react-splitter-layout": "^4.0.0",
+    "reset-css": "^5.0.0",
+    "twug": "0.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "serve": "^11.2.0",
+    "source-map-loader": "^0.2.3",
+    "style-loader": "^1.0.0",
+    "webpack": "^2.7.0"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "dev:watch": "webpack --watch --devtool source-map --progress",
+    "start": "serve -l 7000 ."
+  }
+}
