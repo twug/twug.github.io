@@ -93,3 +93,7 @@ html {
 .splitter-layout.splitter-layout-vertical > .layout-splitter {
     height: 4px;
 }
+
+strong {
+    font-weight: bold;
+}

@@ -31,7 +31,7 @@ export default class TwugFiddle extends React.Component {
 });
 `,
             twig:
-`Hello there {{ name }}!
+`Hello there <strong>{{ name }}</strong>!
 `,
             renderedHtml: ''
         };
