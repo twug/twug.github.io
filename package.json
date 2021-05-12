@@ -4,7 +4,7 @@
   "description": "Twug fiddle - A demo of Twug - Twig built for JavaScript with Uniter",
   "license": "MIT",
   "dependencies": {
-    "codemirror": "^5.49.0",
+    "codemirror": "^5.58.2",
     "react": "^16.10.2",
     "react-codemirror2": "^6.0.0",
     "react-dom": "^16.10.2",
